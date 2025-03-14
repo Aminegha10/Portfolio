@@ -23,7 +23,7 @@ const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
                             <motion.span 
                             initial={{y:'-100%'}} 
                             animate={{y:0}} 
-                            transition={{type:'tween'}} 
+                            transition={{type:'spring'}} 
                             layoutId='underline'
                             className={`${underlineStyles}`}
                             />
