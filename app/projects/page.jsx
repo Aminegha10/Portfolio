@@ -5,6 +5,24 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
+    image: "/work/6.png",
+    category: "react js",
+    name: "Disney+",
+    description:
+      "The JewelryHeader showcases elegant designs with a sleek navbar and a captivating hero section, inviting users to explore exquisite collections effortlessly.",
+    link: "https://diseny.vercel.app/",
+    github: "https://github.com/Aminegha10/Diseny",
+  },
+  {
+    image: "/work/5.png",
+    category: "react js",
+    name: "MoviesApp",
+    description:
+      "The JewelryHeader showcases elegant designs with a sleek navbar and a captivating hero section, inviting users to explore exquisite collections effortlessly.",
+    link: "https://landing-page-iota-lovat-36.vercel.app/",
+    github: "https://github.com/Aminegha10/Landing_Page",
+  },
+  {
     image: "/work/3.png",
     category: "next js",
     name: "MoviesApp",
