@@ -5,6 +5,15 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
+    image: "/work/7.png",
+    category: "react js",
+    name: "Juicy",
+    description:
+      "Juicy UI animation delivers smooth transitions and vibrant motions, offering an engaging and seamless user experience.",
+    link: "https://juicy-animation.vercel.app/",
+    github: "https://github.com/Aminegha10/Juicy_Animation",
+  },
+  {
     image: "/work/6.png",
     category: "react js",
     name: "Disney+",

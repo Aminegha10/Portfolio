@@ -17,6 +17,15 @@ import ProjectCard from "./ProjectCard";
 
 const projectData = [
   {
+    image: "/work/7.png",
+    category: "react js",
+    name: "Juicy",
+    description:
+      "Juicy UI animation delivers smooth transitions and vibrant motions, offering an engaging and seamless user experience.",
+    link: "https://juicy-animation.vercel.app/",
+    github: "https://github.com/Aminegha10/Juicy_Animation",
+  },
+  {
     image: "/work/6.png",
     category: "react js",
     name: "Luca in Disney+",
@@ -120,7 +129,7 @@ const Work = () => {
             pagination={{ clickable: true }}
           >
             {/* show only the first four projects for the slider */}
-            {projectData.slice(0, 4).map((project, index) => {
+            {projectData.slice(0, 6).map((project, index) => {
               return (
                 <SwiperSlide key={index}>
                   <ProjectCard project={project} />
