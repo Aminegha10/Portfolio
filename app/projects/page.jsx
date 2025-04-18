@@ -45,7 +45,7 @@ const projectData = [
     category: "react js",
     name: "Nexus",
     description:
-      "Nexus helps businesses grow by offering tools to manage campaigns, track performance, and reach their audience across digital channels.",
+      "helps businesses grow by offering tools to manage campaigns, track performance, and reach their audience across digital channels.",
     link: "https://marketig-digitale-i816.vercel.app/",
     github: "https://github.com/Aminegha10/Marketig_Digitale",
   },
