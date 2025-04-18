@@ -40,6 +40,15 @@ const projectData = [
     link: "https://movies-app-eta-hazel.vercel.app/",
     github: "https://github.com/Aminegha10/MoviesApp.git",
   },
+   {
+    image: "/work/8.png",
+    category: "react js",
+    name: "Nexus",
+    description:
+      "Nexus helps businesses grow by offering tools to manage campaigns, track performance, and reach their audience across digital channels.",
+    link: "https://marketig-digitale-i816.vercel.app/",
+    github: "https://github.com/Aminegha10/Marketig_Digitale",
+  },
   {
     image: "/work/4.png",
     category: "fullstack",
