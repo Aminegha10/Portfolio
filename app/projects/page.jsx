@@ -18,7 +18,7 @@ const projectData = [
   category: "next js",
   name: "Dead Cells Guide Companion",
   description:
-    "A companion web app for Dead Cells, offering detailed guides, weapon stats, biome maps, and tips to enhance your gameplay experience.",
+    "Dead Cells Guide delivers quick access to weapons, biomes, and tips, enhancing your gameplay with a sleek companion UI.",
   link: "https://dead-cells.vercel.app/",
   github: "https://github.com/Aminegha10/DeadCells",
 },
