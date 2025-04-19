@@ -25,6 +25,15 @@ const projectData = [
     link: "https://juicy-animation.vercel.app/",
     github: "https://github.com/Aminegha10/Juicy_Animation",
   },
+   {
+  image: "/work/9.png",
+  category: "next js",
+  name: "Dead Cells Guide Companion",
+  description:
+    "A companion web app for Dead Cells, offering detailed guides, weapon stats, biome maps, and tips to enhance your gameplay experience.",
+  link: "https://dead-cells.vercel.app/",
+  github: "https://github.com/Aminegha10/DeadCells",
+},
   {
     image: "/work/6.png",
     category: "react js",
