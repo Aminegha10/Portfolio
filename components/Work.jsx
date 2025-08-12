@@ -137,7 +137,7 @@ const Work = () => {
             modules={[Pagination]}
             pagination={{ clickable: true }}
           >
-            {/* show only the first four projects for the slider */}
+            {/* show only the first six projects for the slider */}
             {projectData.slice(0, 6).map((project, index) => {
               return (
                 <SwiperSlide key={index}>

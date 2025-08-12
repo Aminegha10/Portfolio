@@ -5,6 +5,15 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
+    image: "/work/10.png",
+    category: "react js",
+    name: "ChatAI",
+    description:
+      "ChatAI is a real-time messaging application that allows users to connect and communicate seamlessly. Enjoy features like group chats, media sharing, and more.",
+    link: "https://ai-chat-pizg.vercel.app/",
+    github: "https://github.com/Aminegha10/AI-Chat.git",
+  },
+  {
     image: "/work/7.png",
     category: "react js",
     name: "Juicy",
@@ -14,14 +23,14 @@ const projectData = [
     github: "https://github.com/Aminegha10/Juicy_Animation",
   },
   {
-  image: "/work/9.png",
-  category: "next js",
-  name: "Dead Cells Guide Companion",
-  description:
-    "Dead Cells Guide delivers quick access to weapons, biomes, and tips, enhancing your gameplay with a sleek companion UI.",
-  link: "https://dead-cells.vercel.app/",
-  github: "https://github.com/Aminegha10/DeadCells",
-},
+    image: "/work/9.png",
+    category: "next js",
+    name: "Dead Cells Guide Companion",
+    description:
+      "Dead Cells Guide delivers quick access to weapons, biomes, and tips, enhancing your gameplay with a sleek companion UI.",
+    link: "https://dead-cells.vercel.app/",
+    github: "https://github.com/Aminegha10/DeadCells",
+  },
   {
     image: "/work/6.png",
     category: "react js",
@@ -49,7 +58,7 @@ const projectData = [
     link: "https://movies-app-eta-hazel.vercel.app/",
     github: "https://github.com/Aminegha10/MoviesApp.git",
   },
-   {
+  {
     image: "/work/8.png",
     category: "react js",
     name: "Nexus",
