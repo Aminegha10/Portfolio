@@ -29,7 +29,7 @@ const Hero = () => {
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-5 md:flex-row md:justify-between gap-x-8">
           {/* text */}
-          <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
+          <div className="flex max-w-[600px] flex-col justify-start mx-auto xl:mx-0 text-center xl:text-left">
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
               Web Developer
             </div>
