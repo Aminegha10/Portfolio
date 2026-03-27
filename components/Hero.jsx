@@ -33,14 +33,14 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
               Web Developer
             </div>
-            <h1 className="h1 mb-4">Hello, my name is Mohamed Amine</h1>
+            <h1 className="mb-4 h1">Hello, my name is Mohamed Amine</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
               I'm a Full Stack Developer with expertise in mern stack. I build
               scalable apps and enjoy mentoring at Exercism and moderating DEV
               Community. Explore my work here.
             </p>
             {/* buttons*/}
-            <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
+            <div className="flex flex-col mx-auto mb-12 gap-y-3 md:flex-row gap-x-3 xl:mx-0">
               <Link href="/contact">
                 <Button className="gap-x-2">
                   Contact me <Send size={18} />
@@ -88,13 +88,13 @@ const Hero = () => {
             />
             <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark  md:w-[500px] md:h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
             <DevImg
-              containerStyles="bg-hero_shape md:w-[510px] md:h-[462px] bg-no-repeat relative bg-bottom"
+              containerStyles="bg-hero_shape md:w-[560px] md:h-[510px] bg-no-repeat relative bg-bottom -top-28"
               imgSrc="/hero/developer1.png"
             />
           </div>
         </div>
         {/* icon */}
-        <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
+        <div className="absolute hidden md:flex left-2/4 bottom-44 xl:bottom-12 animate-bounce">
           <RiArrowDownSLine className="text-3xl text-primary " />
         </div>
       </div>
