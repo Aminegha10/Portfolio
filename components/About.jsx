@@ -74,9 +74,9 @@ const qualificationData = [
         years: "October-January 2024-2025",
       },
       {
-        company: "Tython",
+        company: "Kelmo",
         role: "Software Engineer",
-        years: "Present",
+        years: "June 2025 - Present",
       },
     ],
   },
@@ -90,19 +90,20 @@ const skillData = [
         name: "Front-end Development",
       },
       {
-        name: "Javascript,Typescript",
+        name: "Javascript , Typescript",
       },
       {
-        name: "Reactjs, Tailwind CSS, Redux Toolkit, NextJs",
+        name: "Reactjs , Tailwind CSS, Redux Toolkit, NextJs",
       },
       {
         name: "Back-end Development",
       },
       {
-        name: "NodeJs, ExpressJs ,MongoDB,SupaBase,MySQL",
+        name: "NodeJs , ExpressJs , MongoDB , PostgreSQL , MySQL",
       },
+      { name: "Spring Boot Java" },
       {
-        name: "Full Stack Developer",
+        name: "Git, Github",
       },
     ],
   },
@@ -130,6 +131,15 @@ const skillData = [
       {
         imgPath: "/about/mongodb.svg",
       },
+      {
+        imgPath: "/about/postgreSql.svg",
+      },
+      {
+        imgPath: "/about/springBoot.svg",
+      },
+      {
+        imgPath: "/about/Java.svg",
+      }
     ],
   },
 ];
@@ -248,7 +258,7 @@ const About = () => {
                                   </div>
                                 </div>
                               );
-                            }
+                            },
                           )}
                         </div>
                       </div>
@@ -283,7 +293,7 @@ const About = () => {
                                   </div>
                                 </div>
                               );
-                            }
+                            },
                           )}
                         </div>
                       </div>
@@ -310,7 +320,7 @@ const About = () => {
                                 <div className="font-medium">{name}</div>
                               </div>
                             );
-                          }
+                          },
                         )}
                       </div>
                     </div>
