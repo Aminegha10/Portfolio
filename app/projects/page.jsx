@@ -5,6 +5,15 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
+    image: "/work/11.png",
+    category: "next js",
+    name: "Dashboard",
+    description:
+      "A modern Next.js dashboard that monitors incoming email orders in real time, automatically extracts and visualizes sales, orders, and customer data through interactive analytics and reporting.",
+    link: "https://ai-chat-pizg.vercel.app/",
+    github: "https://github.com/Aminegha10/Listening-email",
+  },
+  {
     image: "/work/10.png",
     category: "react js",
     name: "ChatAI",
