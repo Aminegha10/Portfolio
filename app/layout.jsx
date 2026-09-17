@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import { Analytics } from "@vercel/analytics/react";
 //theme provider
 import { ThemeProvider } from "@/components/ThemeProvider";
+import Chatbot from "@/components/Chatbot";
 
 const outfit = Outfit({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
           <Header />
           {children}
           <Footer />
+          <Chatbot />
         </ThemeProvider>
         <Analytics />
       </body>
