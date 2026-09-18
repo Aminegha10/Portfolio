@@ -3,6 +3,20 @@
 import { useEffect, useRef, useState } from "react";
 import { Bot, Loader2, MessageCircle, Send, X } from "lucide-react";
 
+const chatApiUrl = process.env.NEXT_PUBLIC_CHAT_API_URL;
+
+const suggestedQuestions = [
+  { label: "About me", question: "Tell me about Amine." },
+  { label: "Professional profile", question: "Tell me about Amine's professional profile." },
+  { label: "Technical skills", question: "What are Amine's technical skills?" },
+  { label: "Professional experience", question: "Tell me about Amine's professional experience." },
+  { label: "Projects", question: "What projects has Amine worked on?" },
+  { label: "Education", question: "What is Amine's educational background?" },
+  { label: "Languages", question: "What languages does Amine speak?" },
+  { label: "Personal interests", question: "What are Amine's personal interests?" },
+  { label: "Career goals", question: "What are Amine's career goals?" },
+];
+
 const initialMessage = {
   id: "greeting",
   role: "assistant",
@@ -42,7 +56,7 @@ export default function Chatbot() {
     setIsLoading(true);
 
     try {
-      const response = await fetch("/api/chat", {
+      const response = await fetch(`${chatApiUrl}/api/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: trimmedMessage }),
@@ -76,6 +90,11 @@ export default function Chatbot() {
       event.preventDefault();
       sendMessage();
     }
+  };
+
+  const selectSuggestion = (question) => {
+    setMessage(question);
+    inputRef.current?.focus();
   };
 
   return (
@@ -122,6 +141,20 @@ export default function Chatbot() {
                 </div>
               </div>
             ))}
+            {messages.length === 1 && (
+              <div className="flex flex-wrap gap-2 pt-1">
+                {suggestedQuestions.map((suggestion) => (
+                  <button
+                    key={suggestion.label}
+                    type="button"
+                    onClick={() => selectSuggestion(suggestion.question)}
+                    className="rounded-full border border-primary/30 px-2.5 py-1 text-left text-xs text-foreground transition-colors hover:border-primary hover:bg-primary/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                  >
+                    {suggestion.label}
+                  </button>
+                ))}
+              </div>
+            )}
             {isLoading && (
               <div className="flex justify-start">
                 <div className="flex items-center gap-2 rounded-2xl rounded-bl-sm bg-muted px-3 py-2 text-sm text-muted-foreground">

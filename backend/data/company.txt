@@ -1,155 +1,329 @@
-ABOUT ME
+# Mohamed Amine Ghanim — Portfolio Information
 
-My name is Amine Ghanim. i have 24 years old , I am a full-stack web developer based in Casablanca, Morocco.
+## Personal Information
 
-I have a background in Information Systems and Digital Transformation, with a Licence in Sciences et Technologies from the Faculty of Sciences and Techniques of Settat (FST Settat).
+Name: Mohamed Amine Ghanim
 
-I am interested in web development, modern JavaScript technologies, backend development, and building useful digital products.
+Role: Full Stack Developer
 
-PROFESSIONAL PROFILE
+Location: Casablanca, Morocco
 
-I have experience working on web applications and internal business systems.
+Email: [aminogha@gmail.com](mailto:aminogha@gmail.com)
 
-My development experience includes working with React.js, Next.js, Node.js, MongoDB, SQL, Java, Spring Boot, and other web technologies.
+Phone: +212689339392
 
-I have worked in professional environments where I collaborated with other developers and worked on projects involving business requirements, problem solving, user needs, and application development.
+GitHub: github.com/Aminegha10
 
-TECHNICAL SKILLS
+LinkedIn: linkedin.com/in/aminegha
 
-Frontend:
+Portfolio: http://aminegha.space
 
+## Professional Profile
+
+Mohamed Amine Ghanim is a Full Stack Developer passionate about software development. He has experience designing and developing web applications and mobile applications.
+
+He has experience working with both frontend and backend technologies and has worked on projects involving React.js, Next.js, Node.js, Express.js, MongoDB, Java Spring Boot, MySQL, React Native, and other technologies.
+
+He is interested in professional opportunities where he can contribute to innovative projects, continue learning, and develop his technical skills.
+
+## Technical Skills
+
+### Frontend Development
+
+* JavaScript
 * React.js
 * Next.js
-* JavaScript
+* Vue.js
+* React Native
+* Expo
 * HTML
 * CSS
 * Tailwind CSS
 
-Backend:
+### Backend Development
 
 * Node.js
 * Express.js
-* Java
-* Spring Boot
+* Java Spring Boot
+* PHP
+* Laravel
 
-Databases:
+### Databases
 
 * MongoDB
 * MySQL
-* SQL
 
-Other technologies and tools:
+### UI / Design Tools
 
-* Git
-* GitHub
-* REST APIs
-* JWT
-* Socket.IO
-* Redux / RTK Query
+* Shadcn UI
+* Preline
+* daisyUI
 * Figma
-* Docker
+
+### Other Technologies and Concepts
+
+* Socket.io
+* EmailJS
+* TMDB API
+* UML
+* Merise
+* C programming language
+
+## Education
+
+### Licence en Sciences et Technologies — FSTS
+
+Period: 2020–2022
+
+Mohamed Amine obtained a Licence in Sciences et Technologies from FSTS.
+
+### Baccalauréat en Sciences Physiques — Casablanca
+
+Period: 2019–2020
+
+He obtained a Baccalauréat in Physical Sciences in Casablanca.
+
+### MERN Full Stack Bootcamp — JobIntech
+
+He completed a certified MERN Full Stack training program.
+
+The training included:
+
+* React.js
+* HTML
+* CSS
+* Node.js
+* Express.js
+* MongoDB
+
+The bootcamp focused on developing reactive frontend interfaces and implementing backend functionality.
+
+## Professional Experience
+
+### Full Stack Developer — Kelmo
+
+Type: Full-time employment
+
+Duration: 6 months
+
+Period: May 2025 – October 2025
+
+Mohamed Amine worked as a Full Stack Developer at Kelmo.
+
+His work included developing an ERP system for internal management, covering both frontend and backend development.
+
+The ERP included key functionalities for users and administrators.
+
+### Operational Internship — Kelmo
+
+Duration: 3 months
+
+Period: July 2025 – October 2025
+
+During his internship at Kelmo, Mohamed Amine developed a dashboard connected to an application that listens to professional emails.
+
+The dashboard displays business statistics including:
+
+* Customer orders
+* Products sold
+* Sales tracking
+* Sales-related statistics
+
+### Internship — TechNaps
+
+Duration: 3 months
+
+Period: October 2024 – January 2025
+
+Mohamed Amine completed an operational internship at TechNaps.
+
+During the internship, he worked on developing a reservation application.
+
+The application allows service providers to:
+
+* Manage their services
+* Manage their schedules
+* Manage their available time slots
+
+Users can use the application to make appointments through an intuitive interface.
+
+Technologies mentioned for the project include:
+
+* MERN Stack
+* EmailJS
+* Socket.io
+
+### Internship — Ark-X-Talent Factory
+
+Duration: 6 months
+
+Period: January 2024 – July 2024
+
+Mohamed Amine completed an operational internship at Ark-X-Talent Factory as a MERN Stack Developer.
+
+During this experience, he worked on web application development using technologies from the MERN ecosystem.
+
+## Projects
+
+### MoviesApp
+
+Year: 2025
+
+Type: Web Application
+
+Technologies:
+
+* Spring Boot
+* MySQL
+* Next.js
+* TMDB API
+
+MoviesApp is a web application for exploring and managing movies.
+
+The application connects to the TMDB API to retrieve movie-related information.
+
+### Dead Cells Guide
+
+Year: 2025
+
+Type: Web Application
+
+Technologies:
+
+* React.js
+* Node.js
+* Express.js
+* MongoDB
+
+Dead Cells Guide is an interactive website designed to help players navigate the game Dead Cells.
+
+The project provides guidance about levels and strategies.
+
+### Reservation Application
+
+Year: 2024
+
+Type: Web Application
+
+Technologies:
+
+* MERN Stack
+* EmailJS
+* Socket.io
+
+The reservation application allows service providers to manage their services and schedules while allowing users to make appointments.
+
+The goal is to provide an intuitive interface for both service providers and users.
+
+### E-commerce Project
+
+Year: 2024
+
+Type: Web Application
+
+Technologies:
+
+* React.js
+* Tailwind CSS
+* Figma
 * Vercel
 
-I am also interested in learning and improving my knowledge of technologies such as NestJS, Angular, Laravel, PHP, and mobile development.
+The E-commerce project is a platform connecting lifestyle styles with associated products.
 
-PROFESSIONAL EXPERIENCE
+## Languages
 
-KELMO
+Mohamed Amine speaks:
 
-I worked on an internal ERP/business management system involving different areas of the company, including human resources, commercial activities, and marketing.
+* Arabic
+* French
+* English
 
-I contributed to the recruitment module, including candidate management, candidate status management, filtering, pagination, candidate documents and photos, recruitment workflows, and candidate conversion into employees.
+## Certifications / Training
 
-I also worked on other parts of the system, including commercial machine reservations and a marketing blog module.
+### MERN Full Stack Bootcamp — JobIntech
 
-TECHNAPS
+Certified training focused on MERN Full Stack development.
 
-I worked on a reservation application using the MERN stack.
+Topics included:
 
-The application included service providers, services, schedules, and client appointments.
+* React.js
+* HTML
+* CSS
+* Node.js
+* Express.js
+* MongoDB
 
-Technologies included MongoDB, Express.js, React.js, Node.js, EmailJS, and Socket.IO.
+## Development Areas
 
-JOBINTECH / ARK-X TALENT FACTORY
+Mohamed Amine's main development areas include:
 
-I completed a MERN FullStack bootcamp through JobInTech / ARK-X Talent Factory.
+* Full Stack Web Development
+* Frontend Development
+* Backend Development
+* REST/API-based applications
+* Database-driven applications
+* Web application development
+* Mobile application development
+* Business management applications
+* Reservation systems
+* E-commerce applications
 
-During the bootcamp, I worked on a complete e-commerce project using React.js, Tailwind CSS, Figma, and Vercel.
+## Technologies at a Glance
 
-The experience also helped me develop professional communication, teamwork, problem-solving, and project collaboration skills.
+JavaScript
+Node.js
+Express.js
+React.js
+Next.js
+Vue.js
+MongoDB
+Java
+Spring Boot
+MySQL
+PHP
+Laravel
+React Native
+Expo
+Tailwind CSS
+Shadcn UI
+Preline
+daisyUI
+Socket.io
+EmailJS
+TMDB API
+Figma
+C
+UML
+Merise
 
-PROJECTS
+## Contact
 
-EMAIL DASHBOARD
+For professional opportunities or questions about Mohamed Amine's work:
 
-A full-stack Next.js application that analyzes professional mailbox order emails and displays information about orders, sales, and clients.
+Email: [aminogha@gmail.com](mailto:aminogha@gmail.com)
 
-Technologies include Next.js, Recharts, and jsPDF.
+GitHub: github.com/Aminegha10
 
-DO-IT TEST
+LinkedIn: linkedin.com/in/aminegha
 
-A project involving video storage and management.
+Portfolio: http://aminegha.space
 
-I experimented with MongoDB GridFS for storing videos and also created a version using Cloudinary for video storage.
+Phone: +212689339392
 
-MOVIES APP
+## Chatbot Instructions
 
-A movie application built with React / Next.js using the TMDB API.
+When answering questions about Mohamed Amine, use only the information provided in this document.
 
-The project includes Redux / RTK Query for application state and API management.
+If the user asks about something that is not mentioned in this information, do not invent an answer.
 
-SPRING BOOT MOVIE VAULT
+For example, if asked about a technology that is not listed here, say that the available portfolio information does not specify his experience with that technology.
 
-A backend-focused movie application built with Spring Boot and Java.
+The chatbot should describe Mohamed Amine's experience, education, skills, projects, and background using factual information from this document.
 
-Technologies include Spring Boot, Java, MySQL, and JWT.
+If someone asks for contact information, provide the relevant contact details listed above.
 
-Features include movies, likes, watchlists, watched movies, and reviews.
+If someone asks about his projects, explain the project purpose and technologies used.
 
-OTHER PROJECTS
+If someone asks about his professional experience, mention the relevant company, role, duration, responsibilities, and project information available in this document.
 
-I have also worked on projects involving reservations, movie information, web applications, and other full-stack development experiments.
-
-EDUCATION
-
-Licence in Sciences et Technologies / Information Systems and Digital Transformation.
-
-Faculty of Sciences and Techniques of Settat (FST Settat).
-
-MERN FullStack Bootcamp:
-JobInTech / ARK-X Talent Factory.
-
-LANGUAGES
-
-Arabic:
-Native language.
-
-French:
-Professional working proficiency.
-
-English:
-Working proficiency.
-
-PERSONAL INTERESTS
-
-I am interested in technology, software development, learning new programming technologies, sports, reading, and discovering different cultures and languages.
-
-CAREER GOALS
-
-I want to continue developing my skills as a full-stack developer and gain more experience building modern web applications and digital products.
-
-I am particularly interested in JavaScript, React, Next.js, Node.js, and modern full-stack development.
-
-CHATBOT RULES
-
-When answering questions about Amine, use only the information provided in this document.
-
-Do not invent experience, technologies, projects, education, companies, dates, or qualifications that are not mentioned here.
-
-If information about Amine is not available, say that the information is not available.
-
-Do not claim that Amine has experience with a technology unless it is explicitly mentioned in this document.
-
-Keep answers concise and natural.
-
-If someone asks for contact information and no contact information is provided in this document, say that the contact information is not available rather than inventing an email address or phone number.
+If someone asks "Who is Mohamed Amine?", give a concise overview of his profile as a Full Stack Developer, his main technologies, professional experience, and selected projects.
